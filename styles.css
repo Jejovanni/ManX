@@ -1,0 +1,120 @@
+/*CSS RESET*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  /*CSS RESET*/
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    }
+body{
+    margin: 8px;
+}
+nav{
+   /* border-style: solid;
+    border-color: white;
+    border-width: 5px;*/ 
+    display: flex;
+}
+/*.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}*/
+
+.navOptions{
+   display: flex; 
+   align-items: center;
+   justify-content: flex-end;
+   width:100%; /*nav width*/
+
+   /* border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+
+
+}
+/*.list{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}*/
+
+#mainBody{
+    display: flex;
+}
+.splitMain{
+    height:91vh;
+    width: 50%;
+}
+#spli1, #spli2{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+#spli1{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#nameTxt0{
+    font-size: 100px;
+}
+#mainTxt1{
+    font-size: 60px;
+}
+
+#bodyTxt1{
+    font-size: medium;
+}
+#mainImg{
+    max-height:100%;
+}
+#mainBody2{
+    padding-top: 50px;
+    height:91vh;
+}
+#mainTxt2{
+    font-size: 70px;
+    padding: 50px 0px 20px 50px;
+
+}
+#mainTxt3{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+/*#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer 
+    background: #6cf;
+ }*/
